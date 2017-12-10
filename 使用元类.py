@@ -23,5 +23,5 @@ Hello2=type('Hello',(object,),dict(hello2=fn))
 h=Hello2()
 print(h.hello2())
 '''通过type()函数创建的类和直接写class是完全一样的因为Python解释器遇到class定义时，
-仅仅是扫描一下class定义的语法，然后调用type()函数创建出class。'''
+仅仅是扫描一下class定    义的语法，然后调用type()函数创建出class。'''
 
